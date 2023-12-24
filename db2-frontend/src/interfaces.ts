@@ -30,4 +30,11 @@ export interface Author {
 export interface Category {
   id?: number
   name?: string
+  books?: string
+}
+
+export interface Client {
+  id?: number;
+  name: string;
+  email: string;
 }
